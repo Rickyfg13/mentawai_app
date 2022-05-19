@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700");
+
+@font-face {
+    font-family: "Helvetica-Neue";
+    src: url("../storage/font/HelveticaNeue-Thin.otf");
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.bg-dark.scrolled {
+    background-color: #252525 !important;
+    transition: background-color 200ms linear;
+}
+
+
+.category {
+    margin-top: 150px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#category-label {
+    text-align: center;
+}
+
+.list-group {
+    display: block;
+    margin: 0 auto;
+    max-width: 250px;
+}
+
+.item-list {
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.list-product {
+    font-family: "Helvetica-Neue";
+    font-weight: bold;
+    text-align: center;
+}
+
+.product-name > a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.product-price {
+    font-family: "Helvetica-Neue";
+}
+
+hr {
+    border: 1px solid #000000;
+    background: #000000;
+}
+
+
+
+p {
+    margin: 0;
+}
+
+.list-group-item > a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.list-group-item.active a{
+    color: #fff;
+}
+
+.bg-dark.scrolled
+{
+    background-color: #252525 !important;
+    transition: background-color 200ms linear;
+}
+

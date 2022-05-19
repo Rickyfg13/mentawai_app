@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Poppins:wght@300&family=Viga&display=swap');
+
+.navbar-brand {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    
+}
+header {
+    padding: 180px 0 165px;
+    background-image: url(img/bg2.png);
+    background-size: cover;
+    
+  }
+
+  h4{
+      padding-right: 110px;
+      padding-bottom: 50px;
+  }
+
+  header h1 {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+  }
+  header  {
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+      box-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+
+  }
+
+  .row .card:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.kopiright {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/* Dekstop Version */
+@media (min-width: 992px) {
+
+    .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+        text-transform: uppercase;
+        margin-right: 10px;
+        font-size: 15px;
+
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0b63dc;
+        width: 50%;
+        margin: auto;
+        margin-bottom: -8px;
+    }
+  
+}
